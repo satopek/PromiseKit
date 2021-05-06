@@ -4,11 +4,11 @@ Pod::Spec.new do |s|
   s.version = '0.0.1'
 
   s.source = {
-    :git => "https://github.com/mxcl/#{s.name}.git",
+    :git => "https://github.com/satopek/#{s.name}.git",
     :tag => s.version,
     :submodules => true
   }
-
+  s.source_files = "PromiseKit/*"
   s.license = 'MIT'
   s.summary = 'Promises for Swift & ObjC.'
   s.homepage = 'http://mxcl.dev/PromiseKit/'
